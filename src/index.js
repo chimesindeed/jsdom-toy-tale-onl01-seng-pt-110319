@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   const toyCollection = document.querySelector("#toy-collection")
-  fetch("")
+  fetch("../db.json")
 });
